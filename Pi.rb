@@ -1,12 +1,14 @@
 
+puts "1~5桁の数字を入力してください"
+
 str = File.read("C:/Users/intern8/Ruby/Pi/1million.txt")
 
 
 x = gets.chomp!
 
-if x !~ /^[0-9]+$/
+if x !~ /^\d{1,5}$/
 
-  puts "入力された文字は数字ではありません"
+  puts "入力が正しくありません"
 
 else
 
