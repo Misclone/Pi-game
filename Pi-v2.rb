@@ -1,6 +1,6 @@
 puts "1~10桁の数字を入力してください"
 
-str = File.read("C:/Users/intern8/Ruby/Pi/3355pi.txt")
+str = File.read("C:/Users/intern8/Ruby/Pi/Pi-billion.txt")
 
 
 x = gets.chomp!

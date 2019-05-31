@@ -1,15 +1,15 @@
 
-puts "1~5桁の数字を入力してください"
+puts "1~10桁の数字を入力してください"
 
-str = File.read("C:/Users/intern8/Ruby/Pi/1million.txt")
+str = File.read("C:/Users/intern8/Ruby/Pi/Pi-10billion.txt")
 
 
 x = gets.chomp!
 
 #前後の数
-n = 20
+n = 10
 
-if x !~ /^\d{1,5}$/
+if x !~ /^\d{1,10}$/
 
   puts "入力が正しくありません"
 
